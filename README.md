@@ -30,6 +30,15 @@ Gotta catch 'em all!
 
 Package showing how you can build an API using [smithy-rs](https://github.com/awslabs/smithy-rs)
 
+## Server Requirements:
+
+What is needed:
+
+```text
+- Java 9+
+- 4gb of Ram (use swap if needed)
+```
+
 ## How to checkout
 
 First of all, make sure you have the JVM installed at version 11 (17 should work

@@ -13,7 +13,7 @@ mkdir -p "$destination_directory"
 
 if [ ! -e "$destination_directory/smithy-rs" ]; then
     pushd "$destination_directory" || exit 1
-    echo "Generating project for $crate_name generated in $destination_directory from template"
+    echo "Generating project for $crate_name generated in $destination_directory from template using source from $source_dir"
     echo
 	git init .
 	git submodule add https://github.com/awslabs/smithy-rs
